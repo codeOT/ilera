@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'Dirtyline 36Daysoftype 2022';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/fonts/Dirtyline36Daysoftype2022-Reg.woff2) format('woff2');
+    }
+}
+
+@layer base {
+    @font-face {
+        font-family: 'Syc';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/fonts/syn.woff2) format('woff2');
+    }
+}
+
+@layer base {
+    @font-face {
+        font-family: 'DM';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/fonts/DM.woff2) format('woff2');
+    }
+}
+@layer base {
+    @font-face {
+        font-family: 'cotta';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/fonts/cotta.otf);
+    }
+}
+
+body {
+    background-color: #fbe2df;
+    font-family: "cotta", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    
+    overflow-x: hidden;
+    /* max-width: 1300px;
+    margin: auto; */
+       
+}
+
+.perspective-800{
+    perspective: 1000px;
+}
+
+.overflow-content-box{
+    overflow-clip-margin: contain-box;
+}
+
+
